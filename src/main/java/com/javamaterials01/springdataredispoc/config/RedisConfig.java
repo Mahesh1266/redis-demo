@@ -18,8 +18,6 @@ public class RedisConfig {
 		RedisStandaloneConfiguration redisStandaloneConfiguration = new RedisStandaloneConfiguration();
 		redisStandaloneConfiguration.setHostName("redis-13503.c82.us-east-1-2.ec2.cloud.redislabs.com");
 		redisStandaloneConfiguration.setPort(13503);
-	
-		//redisStandaloneConfiguration.setUsername("");
 		redisStandaloneConfiguration.setPassword("MR6TS2U1LO8cATpvXM6pnVzDFSfttL8v");//cklDkLUW8FrqOK5ozCN6Nk1ysZfgSMhC
 		return new JedisConnectionFactory(redisStandaloneConfiguration);
 
